@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Das Erste: Simple Icons 13.21.0 (CC0) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48.00dp" android:height="48.00dp"
+    android:viewportWidth="24.9600" android:viewportHeight="24.9603">
+    <group android:translateX="0.4800" android:translateY="0.4803">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M 11.646,0.005 C 5.158,0.2 -0.001,5.57 0,12.127 C 0.135,18.724 5.468,24 12,24 S 23.865,18.724 24,12.127 C 24.001,5.291 18.41,-0.195 11.645,0.005 Z M 16.784,4.935 L 16.784,16.96 L 8.78,19.92 L 8.78,10.84 L 4.88,12.226 L 4.88,9.263 L 16.783,4.935 Z" />
+    </group>
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Netflix: Simple Icons (CC0) via CleanFrame (MIT) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="27.24dp" android:height="48.00dp"
+    android:viewportWidth="14.1640" android:viewportHeight="24.9600">
+    <group android:translateX="-4.9180" android:translateY="0.4800">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M 5.398,0 L 13.746,23.602 C 16.092,23.661 18.602,24 18.602,24 L 10.113,0 L 5.398,0 Z M 13.887,0 L 13.887,9.172 L 18.602,22.502 L 18.602,0 L 13.887,0 Z M 5.398,1.5 L 5.398,24 C 7.271,23.775 8.208,23.688 10.113,23.602 L 10.113,14.83 L 5.398,1.5 Z" />
+    </group>
+</vector>

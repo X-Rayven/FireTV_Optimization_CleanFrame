@@ -1,0 +1,11 @@
+# ADB key and the Fire TV pairing token: never commit
+tools/adbkey/
+tools/venv/
+__pycache__/
+# build output
+firehome/build/
+*.apk
+*.idsig
+# your TV's backups, snapshots and screenshots (serial, account, profile and network details) stay local
+backup/
+.DS_Store

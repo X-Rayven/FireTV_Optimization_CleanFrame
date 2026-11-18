@@ -1,0 +1,62 @@
+# Amazon Fire TV Stick 2nd gen (AFTT, tank), Germany / Fire OS 5.2.9.5 (Android 5.1.1), build 688806320. HIDE=1 applies pm hide.
+# Derived from examples/amazon-fire-tv-stick-2nd-gen-aftt/debloat.txt for the CleanFrame setup in this repo.
+# Kept: Prime Video (com.amazon.firebat + com.amazon.avod), Netflix, YouTube, Disney+, RTL+, 7TV/Joyn, ARD, ZDF.
+# On this firmware none of these entries can actually be switched off (pm hide/disable-user are refused for Amazon
+# system apps); the list documents intent and works on firmware that allows it. firehome ends the idle ones instead.
+# Wi-Fi provisioning, remote, Bluetooth, Appstore and their support services are not targeted.
+# Fire OS 5 refuses hiding Amazon system packages; those commands may report unchanged state.
+# --- batch 1: telemetry, metrics, ads and promotions
+com.amazon.client.metrics
+com.amazon.client.metrics.api
+com.amazon.device.metrics
+com.amazon.metrics.api
+com.amazon.minerva.client.api
+com.amazon.tv.fw.metrics
+com.amazon.perfcollection
+com.amazon.device.logmanager
+com.amazon.device.crashmanager
+com.amazon.dp.logger
+com.amazon.diode
+com.amazon.ceviche
+com.amazon.tv.developer.dataservice
+com.fireos.usagestats.proxy
+com.amazon.kso.blackbird
+com.amazon.ftvads.deeplinking
+com.amazon.hybridadidservice
+com.amazon.tv.easyupgrade
+com.amazon.shoptv.client
+com.amazon.shoptv.firetv.client
+com.amazon.alexashopping
+com.amazon.kor.demo
+com.amazon.tv.releasenotes
+com.amazon.uxnotification
+com.amazon.providers.contentsupport
+# --- batch 2: unused preloads, Live TV, Alexa extras and mirroring
+com.amazon.tv.livetv
+com.amazon.franktvinput
+com.amazon.gamehub
+com.amazon.imdb.tv.android.app
+com.amazon.minitv.android.app
+com.imdb.livingroom.firetv
+com.amazon.tahoe
+com.amazon.bueller.music
+com.amazon.bueller.photos
+com.amazon.cloud9
+com.amazon.tv.website_launcher
+com.amazon.tmm.tutorial
+com.amazon.wha.mediabrowserservice
+com.amazon.ods.kindleconnect
+# Alexa voice/UI left enabled to preserve any voice capability of the remote.
+com.amazon.tv.alexaalerts
+com.amazon.tv.alexanotifications
+com.amazon.alexa.externalmediaplayer.fireos
+com.amazon.alexamediaplayer.runtime.ftv
+com.amazon.alexa.datastore.app
+com.amazon.wcast.sink
+# --- batch 3: streaming/apps the user says they do not use
+# Prime Video stays: com.amazon.firebat is the Prime Video app on Fire OS 5.2.9.5, com.amazon.avod its playback service.
+com.onemainstream.sonyliv.android
+com.zee5.amazon
+com.jio.media.stb.ondemand
+com.kyy.sportstube
+com.kyy.tubevideosB
